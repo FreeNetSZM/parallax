@@ -1,0 +1,59 @@
+.parallax-background {
+  height: 12000px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.layer1 {
+  background-image: url("../img/bck1.png");
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+
+.layer2 {
+  background-image: url("../img/bck2.png");
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  background-repeat: repeat;
+  opacity: 0.5;
+}
+
+.layer3 {
+  background-image: url("../img/bck3.png");
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  background-repeat: repeat;
+  opacity: 0.3;
+}
+
+.content {
+  height: 500px;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center; 
+
+  
+}
+
+body {
+  height:12000px;
+  width: 1200px;
+}
+
+p {
+    background-color:white;
+    outline-style: solid;
+    padding: 10px;
+    margin: 150px;
+}
